@@ -31,7 +31,7 @@ pipeline {
                                 }
                         }
                         stage('Integration test') {
-                        agent any 
+                        agent any }
 				{ 
                                 docker {
                                         reuseNode false
